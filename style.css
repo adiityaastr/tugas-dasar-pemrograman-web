@@ -1,0 +1,145 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background: #005bea;
+    color: white;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: 600;
+    transition: color 0.3s;
+}
+
+nav ul li a:hover {
+    color: #ffcc00;
+}
+
+/* Ini bagian Hero utama */
+.hero {
+    text-align: center;
+    padding: 120px 20px;
+    background: linear-gradient(90deg, #005bea, #00c6fb);
+    color: white;
+}
+
+.hero-content {
+    max-width: 600px;
+    margin: auto;
+}
+
+.hero h1 {
+    font-size: 36px;
+    font-weight: 600;
+}
+
+.hero p {
+    font-size: 18px;
+}
+
+.btn {
+    display: inline-block;
+    padding: 12px 25px;
+    background: #ffcc00;
+    color: black;
+    font-weight: bold;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 15px;
+    transition: 0.3s;
+}
+
+.btn:hover {
+    background: #ffaa00;
+}
+
+/* style bagian containernya */
+.container {
+    width: 80%;
+    margin: 40px auto;
+    padding: 20px;
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Services */
+.service-grid {
+    display: flex;
+    gap: 15px;
+    justify-content: space-around;
+    text-align: center;
+}
+
+.service-item {
+    background: #005bea;
+    color: white;
+    padding: 20px;
+    border-radius: 10px;
+    flex: 1;
+}
+
+/* Form */
+form input, form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+form button {
+    background: #005bea;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 16px;
+    transition: 0.3s;
+}
+
+form button:hover {
+    background: #003c8f;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 15px;
+    background: #222;
+    color: white;
+}
